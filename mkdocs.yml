@@ -1,4 +1,46 @@
-site_name: Sample Host
+site_name: SiPhotonics
 theme:
-   name: 'material'
-   
+  name: 'material'
+  icon:
+    logo: material/flare
+    repo: fontawesome/brands/github-alt
+  font:
+    text: Ubuntu
+  features:
+    - navigation.tracking
+    - navigation.top
+    - header.autohide
+    - search.suggest
+  plugins:
+    - search
+    - search.highlight
+    - search.share
+    - git-authors
+    - git-revision-date-localized:
+        enable_creation_date: true
+    - git-revision-date-localized:
+        fallback_to_build_date: true
+    - git-committers:
+        repository: squidfunk/mkdocs-material
+        branch: main
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:aycandv@gmail.com
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/aycandv
+copyright: Copyright &copy; 2022 Aycan Deniz Vit
+repo_url: https://github.com/aycandv/samplehost
+repo_name: aycandv/samplehost
