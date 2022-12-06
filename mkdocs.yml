@@ -1,4 +1,5 @@
 site_name: SiPhotonics
+
 theme:
   name: 'material'
   icon:
@@ -6,25 +7,16 @@ theme:
     repo: fontawesome/brands/github-alt
   font:
     text: Ubuntu
-  features:
-    - navigation.tracking
-    - navigation.top
-    - header.autohide
-    - search.suggest
   plugins:
     - search
-    - search.highlight
-    - search.share
-    - search.suggest
     - mkdocstrings
-    - git-authors
-    - git-revision-date-localized:
-        enable_creation_date: true
-    - git-revision-date-localized:
-        fallback_to_build_date: true
-    - git-committers:
-        repository: aycandv/sample-host
-        branch: main
+    
+  features:
+  - navigation.tracking
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - search.share
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default 
@@ -40,9 +32,9 @@ extra:
   social:
     - icon: fontawesome/solid/paper-plane
       link: mailto:aycandv@gmail.com
-  social:
     - icon: fontawesome/brands/github 
       link: https://github.com/aycandv
 copyright: Copyright &copy; 2022 Aycan Deniz Vit
 repo_url: https://github.com/aycandv/sample-host
 repo_name: aycandv/sample-host
+
