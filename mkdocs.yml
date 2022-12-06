@@ -21,7 +21,7 @@ theme:
     - git-revision-date-localized:
         fallback_to_build_date: true
     - git-committers:
-        repository: squidfunk/mkdocs-material
+        repository: aycandv/sample-host
         branch: main
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -42,5 +42,5 @@ extra:
     - icon: fontawesome/brands/github 
       link: https://github.com/aycandv
 copyright: Copyright &copy; 2022 Aycan Deniz Vit
-repo_url: https://github.com/aycandv/samplehost
-repo_name: aycandv/samplehost
+repo_url: https://github.com/aycandv/sample-host
+repo_name: aycandv/sample-host
