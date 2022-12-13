@@ -1,7 +1,7 @@
 site_name: SiPhotonics
 
 theme:
-  name: 'material'
+  name: 'readthedocs'
   icon:
     logo: material/flare
     repo: fontawesome/brands/github-alt
